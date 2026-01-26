@@ -11,6 +11,7 @@ YELLOW = "\033[93m"
 RED = "\033[91m"
 RESET = "\033[0m"
 BOLD = "\033[1m"
+BLUE = "\033[94m" 
 
 def typing_effect(text, delay=0.03):
     """စာသားတွေကို တစ်လုံးချင်း ရိုက်ပြမည့် Effect"""
