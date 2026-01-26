@@ -1,0 +1,22 @@
+Altair-Project/
+├── app.py                     # Main Entry Point (System Hub)
+├── v7/                        # Core Intelligence Engine
+│   ├── core/                  # Internal Logic Modules
+│   │   ├── bus.py             # Event Bus Communication
+│   │   ├── engine.py          # Decision Making Logic
+│   │   ├── blockchain_engine.py# Decentralized Integrity Logic
+│   │   ├── swarm.py           # Multi-agent Orchestration
+│   │   ├── memory.py          # RAG & Context Management
+│   │   ├── llm.py             # Model Interface Layer
+│   │   └── guardrails.py      # System Safety & Security
+│   ├── agents/                # Autonomous Agent Roles
+│   │   ├── planner.py         # Task Decomposition
+│   │   ├── coder.py           # Logic Generation
+│   │   └── debugger.py        # Self-Correction Agent
+│   ├── ui/                    # User Interface Components
+│   ├── plugins/               # External Tools & Extensions
+│   └── memory/                # Persistent Knowledge Storage
+│       ├── brain.json         # Long-term Memory
+│       └── blockchain_ledger.json
+├── logs/                      # System Audit Logs
+└── memory/                    # Global Storage Hub
